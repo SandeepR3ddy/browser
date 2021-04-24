@@ -1,14 +1,37 @@
 body
 {
     margin: 0;
+    font-family: 'Zen Dots', cursive;
+    color: white;
+ background-color: #15314b;
+
 }
-.input_container
+.input-container
 {
 height:  15vh;
-background-color : blue;
+margin-top: 3vh;
+margin-left: 27vw;
 }
-.task_container
+.task-container
 {
  height : 85vh;
- background-color: blue;
+ color: white;
+ text-align: center;
+}
+li{
+    list-style: none;
+    font-size: 1.25rem;
+    background-color: blue;
+    width: 60vh;
+    height: 1.5rem;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+.input_box{
+    font-family: 'Zen Dots', cursive;
+    height: 60%;
+    font-size: 1.25 rem;
+}
+.instructor{
+    font-size: 1.5rem;
 }
